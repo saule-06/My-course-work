@@ -2,15 +2,37 @@
   box-sizing: border-box;
 }
 body {
-  height: 100%;
+  margin: 0;
 }
 .container {
   max-width: 1280px;
   margin: 0px auto;
 }
 .header{
-  background-image: url(header.kartinka.png);
+  /* background-image: url(header.kartinka.png); */
   background-repeat: no-repeat;
-  width: 40%;
   height: 100vh;
+  background-size: cover;
+}
+.header-line {
+  padding-top: 40px;
+  display: flex;
+  align-items: center;
+  
+}
+.cart {
+  justify-content:end;
+}
+.cart img{
+  margin-left: 20px;
+}
+.btn a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #156963;
+}
+.btn .button {
+  background-color: #156963;
+  color: white;
+  padding: 8px 20px;
 }
