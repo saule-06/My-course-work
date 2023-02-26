@@ -8,3 +8,9 @@ body {
   max-width: 1280px;
   margin: 0px auto;
 }
+.header{
+  background-image: url(header.kartinka.png);
+  background-repeat: no-repeat;
+  width: 40%;
+  height: 100vh;
+}
