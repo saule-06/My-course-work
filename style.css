@@ -8,6 +8,94 @@ body {
   max-width: 1168px;
   margin: 0px auto;
 }
+h1, h2, h3, h4, h5, h6{
+  font-family:'Montserrat', sans-serif;
+}
+h1{
+  font-size: 68px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 68px;
+  line-height: 83px;
+  color: #156963;
+}
+h2{
+  font-size: 40px;
+}
+h3{
+  font-size: 32px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 39px;
+  color: #156963;
+}
+h4{
+  font-size: 24px;
+}
+h5{
+  font-size: 20px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+
+}
+h6{
+  font-size: 16px;
+  font-weight: 700;
+  color: #156963;
+  line-height: 24px;
+}
+.col-4{ 
+  flex-basis: 33.3%;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+.col-3{
+  flex-basis: 25% ;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+.col-6{
+  flex-basis: 16.6%;
+  flex-grow: 0;
+  flex-shrink:0 ;
+}
+.col-12{
+  flex: 100% 0 0;
+}
+.col-1{
+  flex: 8.3% 0 0;
+}
+.col-2{
+  flex: 16.6% 0 0;
+}
+.col-5{
+flex: 41.6% 0 0;
+}
+.col-6{
+  flex: 50% 0 0;
+}
+.col-7{
+  flex: 58.3% 0 0;
+}
+.col-8{
+  flex: 66.6% 0 0;
+}
+.col-9{
+  flex: 75% 0 0;
+}
+.col-10{
+  flex: 83% 0 0;
+}
+.col-11{
+ flex: 91.6% 0 0 ;
+}
 .header{
   /* background-image: url(header.kartinka.png); */
   background-repeat: no-repeat;
