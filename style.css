@@ -137,3 +137,44 @@ flex: 41.6% 0 0;
 .example-card{
   margin: 15px;
 }
+.example-image h6{
+  margin-top: 10px;
+}
+.example-image{
+  display: flex;
+  width: 150px;
+  height: 50px;
+}
+.example-text{
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 16px;
+  margin-top: 20px;
+}
+.example-image img{
+  margin-right: 15px;
+  width: 48px;
+  height: 48px;
+  margin-top: 6px;
+}
+.example-text{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 16px;
+}
+.example-image1{
+  display: flex;
+  width: 200;
+  height:50px;
+}
+.example-image1 img{
+  margin-right: 15px;
+  width: 45px;
+  height: 45px;
+  margin-top: 6px;
+}
+.example-image1 h6{
+  margin-top: 10px;
+}
