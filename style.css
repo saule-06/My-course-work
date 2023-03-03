@@ -178,3 +178,23 @@ flex: 41.6% 0 0;
 .example-image1 h6{
   margin-top: 10px;
 }
+.section-text{
+  display: flex;
+  align-items: center;
+}
+.section-text2 a {
+  text-decoration: none;
+  color: black;
+  align-items: center;
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 12px;
+  margin-top: 7px;
+  margin-left: 7px;
+  
+}
+.section-text2{
+  border: 1px solid #E0E0E0;
+  width: 125px;
+  height: 31px;
+}
